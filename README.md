@@ -1,6 +1,20 @@
 # lawlbot
 The lawlbot is a IRC bot which provides lawls &amp; stuff
 
+## IRC commands
+
+`!lawl` reponds with a random line from `etc/lawls.txt`
+```
+<Jon> !lawl
+<lawlbot> Jon: http://i.imgur.com/XkZhitA.jpg
+```
+
+`!roll [0-9]{1,2}d[0-9]{1,4}` rolls dices with given arguments.
+```
+<Jon> !roll 6d6
+<lawlbot> Jon: : [1, 2, 5, 2, 6, 6]
+```
+
 
 ## Deploy app to heroku
 
